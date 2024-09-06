@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            Login Page
+        </title>
+        <h1 style="text-align:center;">Login</h1>
+        <hr>
+    </head>
+    <body>
+        <h4>Username</h4>
+        <label>Enter username</label>
+        <input type="text" id="username" name="username"/><br/>
+        <hr>
+        <h4>Password</h4>
+        <label>Enter password</label>
+        <input type="password" id="password" name="password"/><br/>
+        <hr>
+        <h4>Forget password?</h4>
+        <button onclick="check()">Login</button>
+
+        <script>
+            var users = [
+                { "id": 1, "username": "sharyuk", "password": "abcd@123" },
+                { "id": 2, "username": "priya", "password": "abcd@123" },
+                { "id": 3, "username": "rutuja", "password": "abcd@123" }, 
+                { "id": 4, "username": "sharyukoli", "password": "sharyu@123" }
+            ];
+
+            function check() {
+                var usern = document.getElementById("username").value;
+                var pass = document.getElementById("password").value;
+
+                console.log("Username: " + usern);
+                console.log("Password: " + pass);
+
+                for (var i = 0; i < users.length; i++) {
+                    if (usern === users[i].username && pass === users[i].password) {
+                        alert(" You Are Login successfully");
+                        return;
+                    }
+                }
+                alert("Wrong credentials, Try Again With Correct Crendentials");
+            }
+        </script>
+    </body>
+</html>

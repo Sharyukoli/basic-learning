@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <h4>GreenHouse Climate </h4>
+</head>
+
+<body>
+    <br>
+    <label>Temperature</label>
+    <input type="number" /><br><br>
+    <label>humidity </label>
+    <input type="number" /><br><br>
+    <label>CO2 Level</label>
+    <input type="number" /><br><br>
+    <label>light_intensoty</label>
+    <input type="number" /><br><br>
+    <button onclick="check()">insert</button>
+    <script>
+
+
+        var greenhouse = [
+            {
+                "temperature": 15.2,
+                "humidity": 13,
+                "CO2_level": 11,
+                "light_intensity": 11
+
+            },
+            {
+                "temperature": 15.2,
+                "humidity": 14,
+                "CO2_level": 12,
+                "light_intensity": 114
+
+            },
+            {
+                "temperature": 15.2,
+                "humidity": 15,
+                "CO2_level": 13,
+                "light_intensity": 113
+
+            },
+            {
+                "temperature": 13.5,
+                "humidity": 16,
+                "CO2_level": 14,
+                "light_intensity": 122
+
+            }
+        ]
+
+        function check() {
+                var usern = document.getElementById("temperature").value;
+                var pass = document.getElementById("humidity").value;
+                var usernn = document.getElementById("CO2_level").value;
+                var passs = document.getElementById("light_intensity").value;
+
+                console.log("Username: " + usern);
+                console.log("Password: " + pass);
+                console.log("Username: " + usernn);
+                console.log("Password: " + passs);
+        }
+        alert(hhshid);
+
+                
+
+    </script>
+    
+</body>
+
+</html>

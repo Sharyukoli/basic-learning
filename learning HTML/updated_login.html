@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <style>
+            /* Centering the box */
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #f0f0f0;
+            }
+
+            /* The box style */
+            .login-box {
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                width: 300px;
+                text-align: center;
+            }
+
+            /* Input fields and button styling */
+            input[type="text"],
+            input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            button {
+                width: 100%;
+                padding: 10px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+            h1, h4 {
+                margin: 10px 0;
+            }
+
+            hr {
+                margin: 20px 0;
+            }
+
+            label {
+                font-size: 14px;
+                display: block;
+                text-align: left;
+                margin-bottom: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="login-box">
+            <h1>Login</h1>
+            <hr>
+            <h4>Username</h4>
+            <label>Enter username</label>
+            <input type="text" id="username" name="username"/><br/>
+            <hr>
+            <h4>Password</h4>
+            <label>Enter password</label>
+            <input type="password" id="password" name="password"/><br/>
+            <hr>
+            <h4>Forgot password?</h4>
+            <button onclick="check()">Login</button>
+        </div>
+
+        <script>
+            var users = [
+                { "id": 1, "username": "sharyuk", "password": "abcd@123" },
+                { "id": 2, "username": "priya", "password": "abcd@123" },
+                { "id": 3, "username": "rutuja", "password": "abcd@123" }, 
+                { "id": 4, "username": "sharyukoli", "password": "sharyu@123" }
+            ];
+
+            function check() {
+                var usern = document.getElementById("username").value;
+                var pass = document.getElementById("password").value;
+
+                console.log("Username: " + usern);
+                console.log("Password: " + pass);
+
+                for (var i = 0; i < users.length; i++) {
+                    if (usern === users[i].username && pass === users[i].password) {
+                        alert("Login successful");
+                        return;
+                    }
+                }
+                alert("Wrong credentials");
+            }
+        </script>
+    </body>
+</html>
