@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Canvas Line Drawing</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body
+onmousedown="mouseDownHandler(event)"
+onmouseup="mouseUpHandler(event)">
+
+<div id="div1"  >Transflower</div>  
+<p id="para1"></p>
+
+ 
+<canvas id="myCanvas" width="500" height="500"></canvas>
+
+         
+
+<script>
+    // Select the canvas element
+    const canvas = document.getElementById('myCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Set line properties
+    ctx.strokeStyle = '#000';  // Line color
+    ctx.lineWidth = 2;         // Line width
+
+    // Draw a line
+    ctx.beginPath();
+    ctx.moveTo(50, 50);  // Starting point (x, y)
+    ctx.lineTo(400, 400);  // Ending point (x, y)
+    ctx.stroke();  // Render the line
+
+
+
+    function mouseUpHandler(e){
+            let x = e.clientX;
+            let y = e.clientY;   
+            let coor = "Coordinates: (" + x + "," + y + ")";
+            console.log("mouse up event");
+            var p1=document.getElementById('para1');
+            p1.textContent=coor;
+        }
+
+        function mouseMoveHandler(e)
+        {
+            let x = e.clientX;
+            let y = e.clientY;
+            let coor = "Coordinates: (" + x + "," + y + ")";
+            console.log("mouse move event");
+            var p1=document.getElementById('para1');
+            p1.textContent=coor;
+        }
+</script>
+
+</body>
+</html>

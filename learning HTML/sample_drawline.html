@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <canvas id="canvas1" width="450" height="300"
+                onmousedown="onMouseDownHandler(event)"
+                onmouseup="onMouseUpHandler(event)"
+                style="border:1px solid blue"></canvas>
+ 
+        <script>
+            // Start and end points of the line
+            var startPoint = { x: 0, y: 0 };
+            var endPoint = { x: 0, y: 0 };
+           
+            // This function helps us know where we clicked on the canvas
+            function getCanvasCoordinates(canvas, event) {
+                const rect = canvas.getBoundingClientRect();
+                // This gives us the correct position on the canvas
+                return {
+                    x: event.clientX - rect.left,  // Adjust the X position
+                    y: event.clientY - rect.top    // Adjust the Y position
+                };
+            }
+
+            // When you press the mouse down, it gets the starting point
+            function onMouseDownHandler(e){
+                const canvas = document.getElementById('canvas1');
+                let coords = getCanvasCoordinates(canvas, e);
+                startPoint.x = coords.x;
+                startPoint.y = coords.y;
+                console.log("Starting point: ", startPoint);
+            }
+ 
+            // When you lift the mouse up, it gets the ending point and draws the line
+            function onMouseUpHandler(e){
+                const canvas = document.getElementById('canvas1');
+                let coords = getCanvasCoordinates(canvas, e);
+                endPoint.x = coords.x;
+                endPoint.y = coords.y;
+                console.log("Ending point: ", endPoint);
+
+                // Draw the line on the canvas
+                const ctx = canvas.getContext("2d");
+                ctx.beginPath();
+                ctx.moveTo(startPoint.x, startPoint.y);  // Start of the line
+                ctx.lineTo(endPoint.x, endPoint.y);      // End of the line
+                ctx.stroke();
+            }
+        </script>
+    </body>
+</html>

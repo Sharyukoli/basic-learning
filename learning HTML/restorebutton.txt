@@ -1,0 +1,22 @@
+
+
+
+
+1] store lines drawn by the user
+2] store it in local storage
+3] retore lines 
+4]even we refresh the page lines will be restored
+
+
+
+1.Draw the Line create the object of that line data.
+let l1={
+                        id:12,
+                        startpoint:{x:12, y:45},
+                        endpoint:{x:200, y:245},
+                        thickness:2,
+                        color:"red"
+                     };
+2.Then store that json object in the json array.
+3.On click of button store that json array in local storage.
+ 
