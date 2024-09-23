@@ -1,72 +1,78 @@
 
-
-
-import React, { useEffect, useState } from 'react';
-import EventEmitter from 'eventemitter3';
+//import React, { useEffect, useState } from 'react';
+//import EventEmitter from 'eventemitter3';
  
  
-const emitter= new EventEmitter();
+//const emitter= new EventEmitter();
  
-function Publisher(){
+//function Publisher(){
  
-  const [text,setText]=useState('');
+ // const [text,setText]=useState('');
  
-  const handleChange=(event)=>{
-    setText(event.target.value);
-  }
+ // const handleChange=(event)=>{
+ //   setText(event.target.value);
+ // }
  
-  const handleClick=(event)=>{
-    emitter.emit('update', text);
-  };
+ // const handleClick=(event)=>{
+ //   emitter.emit('update', text);
+ // };
  
-  return(
-    <>
-      <h3>Publisher</h3>
-      <input type="text" value={text} onChange={handleChange}/>
-      <button onClick={handleClick}>Publish Data</button>
-    </>
-  );
-};
+  //return(
+  //  <>
+   //   <h3>Publisher</h3>
+    //  <input type="text" value={text} onChange={handleChange}/>
+     // <button onClick={handleClick}>Publish Data</button>
+    //</>
+  //);
+//};
  
-function Subscriber(){
+//function Subscriber(){
  
-  const [data, setData] = useState('');
+ // const [data, setData] = useState('');
  
-  useEffect(()=>{
-      const handleUpdate = (newData) => {
-        setData(newData);
-      };
+ // useEffect(()=>{
+  //    const handleUpdate = (newData) => {
+   //     setData(newData);
+   //   };
  
-      emitter.on('update',handleUpdate) //attach event handler
+    //  emitter.on('update',handleUpdate) //attach event handler
                                         //subscribe event handler
  
-      return ()=>{
-        emitter.off('update',handleUpdate); //detach event handler
+     // return ()=>{
+      //  emitter.off('update',handleUpdate); //detach event handler
                                             //unsubscribe event handler
-        }
-      }, []);
+      //  }
+     // }, []);
  
-  return(
-    <>
-      <h3>Consumer</h3>
-      <p>Data received  : {data} </p>
-    </>
-  );
-};
+ // return(
+   // <>
+   //   <h3>Consumer</h3>
+   //   <p>Data received  : {data} </p>
+   // </>
+ // );
+//};
  
- 
+import React from 'react';
+import EventEmitter from 'eventemitter3';  
+import Publisher from "./Publisher";     
+import Subscriber from "./Subscriber"; 
+
+
+
+
 function App() {
+  const emitter= new EventEmitter();
   return (
     <>
       <div>
         <h2>Component Communication</h2>
         <table>
           <tr>
-            <td> <Publisher/></td>
+            <td> <Publisher /></td>
             <td></td>
           </tr>
           <tr>
-            <td><Subscriber/></td>
+            <td><Subscriber /></td>
             
           </tr>
         </table>

@@ -1,0 +1,609 @@
+Database Technologies:
+	SQL Database-------mysql, MSSQL, Postgres, oracle
+			    
+			tables  and Relationship  ( one to many, many to many, many to one)
+			employees
+			recrods
+			
+			fields	empid Primary Key
+				 fullname, age, exp. location, contact
+				11, ritesh chopra, 49, 26, mohali,9881735802
+				12, ravi tambade, 49, 26, pune,9881735802
+			departments:
+			 records
+			 fields
+						   foreign key
+				deptid  name	   depthead		location
+				1 	accounts   12  			pune
+				3 	training   11  			mohali
+			customers
+			payments
+
+
+	No SQL Database----mongoDB
+
+
+			Collection:	documents
+					similar types of objects grouped together
+					
+			
+			products---------collection
+			customers--------collection
+
+
+Fullstack Developers  (TAP)
+	TAP students
+		
+	Roadmap:
+
+	Database--------------------mongo db , mysql, mssql, postgres
+	Database Connectivity------connectors, JDBC, ODBC, OLE DB
+	Logic----------------------C,C++,C# , Java, Javascript, python
+	Web Application------------asp, php, jsp, spring mvc, asp.net mvc, django, express
+	User Interface-------------HTML, CSS, Javascript, jQuery, react js, angular, vue.js,
+				   android, react native, swift, flutter, etc.
+	DevOps (IT Support)--------
+				   server ,cloud 
+				   virtuaization,AWS, Azure, GCP
+				   Docker, Kubernets, 
+				   CI/CD pipline
+
+
+
+
+
+
+TAP (Transflower Acceleartion Program)
+-------------------------------------------------------------------------------------
+Modern Agritecture:(Project Based Learning)
+Drone Spray Automation
+Greenhouse Automation
+
+
+Software Engg...........
+
+OS: Linux   (centos, ubuntu, fedora, kali,red hat)
+C,C++,C#
+Java
+Database  : MySql, Mongo DB
+Web Technology: HTML, CSS, Javascript, Bootstrap
+		React, Angular, Vue.js
+DevOps:Cloud Computing
+Data Engineering:Data Pipeline
+		 Data Analytics
+
+
+OOP , FDS, Computer Graphics,DELD,Discrite Mathematics
+C,C++,Java,Python----------
+	FDS
+	OOP
+	Computer Graphics
+	Database Connectivity
+	Desktop application  (Windows Application)
+	Web Programming
+
+
+Core Java, JSP, Servelet, JDBC  :   4 months, 8 month-------------80,000 rs---------------10,000 Rs.
+							Training
+						    QSpider, Velocity,Firtbit, ........ CDAC
+	(employed)	    (unEmployees)
+	500, ---------------4,000 
+				
+			    500-------------- 3500
+
+
+
+
+
+Github :
+
+
+	Portal:
+		a website that is used as a point of entry to the Internet,
+		where information has been collected 
+		that will be useful to a person interested in particular kinds of things.
+
+		Job seekers,------looking for Job------------------------------------------------Job Portal
+		students----------looking for knowledge, educational content, online mentors-----Wikipedia
+		freelancers-------looking for consulting assingments, work
+		customers---------looking for services provided by service Providers
+		consumers---------looking for goods, products, services to consume
+		
+	Web site:
+		 public web site
+				https://www.microsoft.com/en-in/
+		 secure web site
+				(authentication  --------Trusted user ---- with the help of credentials
+									    username and password
+									    token
+								 			OTP
+											JWT
+											OAuth)
+				  authorization-----------
+							   Controlled Access
+							   Role based Access (admin, customer, manager, content creator,
+									      director,etc.)
+							   set of permissions
+			)
+
+	WebPortal
+			https://github.com/---------------Web Site (members portal)
+			https://www.facebook.com/ ---------Collaborative secure, personalized, social networking web site
+	
+	GitHub:
+
+	GitHub is a developer platform ( create, build, test, deploy software source code)
+	that allows developers to create, store, manage and share their code. 
+	It uses 
+	Git software, providing the distributed version control of Git plus
+			 access control, 
+			 bug tracking, 
+			 software feature requests, 
+			 task management, 
+			 Continuous Integration, 
+			 and wikis for every project.
+
+
+	Github for user
+			allows to share  code repositories
+			  public repository
+					source code
+					 files
+							cs, .java. , .py, txt, .md
+							.html,css, .js.
+			  private repository
+			
+
+
+			
+Git
+Git Commands
+Tools installation
+
+
+
+
+Complex Software:
+using set of objects
+	temp Sensor
+	humidity Sensor
+	Fertilizer
+	Pest
+
+Ecommerce:
+	 Product
+	 Customer
+	 Order
+	 Shipment
+Object: (Real world entity)
+	
+	JavaScript:
+
+		State (attributes)
+	
+		{
+			title:gerbera,				rose
+			id:23,					45
+			description:wedding flower,		Valetine flower
+			unitprice:12,				23
+			quantity:60000,				1200
+			likes:650000
+		}
+
+Higher level programming   ( C ,C++, C#, Java, Python, Typescript, etc.) 
+		
+	  Schema: 
+		Skeleton (template)
+		Structure
+		Class
+
+
+Perform Rubber Band line feffect for button click events.
+1. Add two buttons to HTML document
+2. Add two event handlers on click for buttons
+3. set one shape global variable which would be updated due to any button clicked.
+4. While drawing check shape value and based on value of Shape implement logic 
+   for line or rectangle rubber band.
+5. onMouseUp depending on shape value redraw line or rectangle.
+
+
+Step by Step approach for implementing rubber band line effect using HTML, Javascript and DOM API
+
+
+Mainframe computing
+
+	Mainframe application
+
+	Fortran + Engg. 
+	Pascal + Cobol
+
+	IBM PC-----MS DOS----Desktop application 
+	
+	Personal computing
+	 C Programming : 
+
+
+			   Application Development:
+				  desktop development
+				  windows app development
+				  word, excel, paint brush
+				  
+			   System level programming
+			 		application development
+			 		development tools
+				 	comiplers, loaders
+	 			 	debugger,
+				 	prformance monitors
+			
+			   Systems programming 
+				 Writing  virus
+
+				   antivirous
+				   hardware interfaceing 
+					 serial port communtion
+					 prallel port communication
+					 Networkging
+					 TCp/IP programming
+			  
+			 Firmware level Programming	 
+	  		  Embedded  C
+				  RTOS
+				  Device Drivers
+				  BIOS level programming
+				
+	ANSI C---
+	Let us C----- Yashwant Kanetkar (nagpur)
+	
+	C  programming lang.-----
+
+	C Enviornments:
+		turbo C, 
+		borland c, 
+		dev c++, 
+		mingw
+		gcc, 
+		Microsoft Cpp
+
+	C++ programming----------
+
+	C  programming lang.-----
+		
+	  Coding Syntax:
+		  arithmatic operations		 addition, subtraction, multiplication, division, moduls, 
+		  conditional statements	 if  else , if elseif , switch case, turnary operator
+		  logical operator		: bitwise,  && ||
+						  !=
+						  ==
+		  looping			for loop
+						do while
+						while
+					
+		  general input			scanf,
+						getch, getc
+		  general output		printf,
+					        putc
+
+		  Variable declaration:
+		  types: int, float, double, shrot int
+			 boolean, long, char
+			 (primitve data types)
+
+		  collections:
+			 arrays,
+			 strings,
+			 structure----custom type
+			 arrays:
+				Single Dimensional Array
+					int marks [5]={23,54,65,45,45}
+				Two Dimensional Array
+					
+				int matrix[3][3] = {
+        						{1, 2, 3},
+        						{4, 5, 6},
+        						{7, 8, 9}
+    						    };
+				
+
+			 	int matrix[X][Y][Z] = {
+        						{
+            							{1, 2, 3, 4},
+            							{5, 6, 7, 8},
+            							{9, 10, 11, 12}
+        						},
+        						{
+            							{13, 14, 15, 16},
+            							{17, 18, 19, 20},
+            							{21, 22, 23, 24}
+        						}
+    						};
+		
+
+			Functions:
+					Entry Point function:	main () {     }
+					User defined functions: display() {   }
+					Recursion:
+			pointers:
+				 int count=765;
+				 int * ptr=count;  
+				 pointer represnts memory location (address)
+			
+			Memory Management
+
+			 Stack-----------variable with function scope
+			 Heap------------dynamic memory allocation
+			 malloc , calloc
+			 sizeof
+			 free
+			 
+
+		 	File I/O ( fopen, fclose, fprintf)
+				Create file
+				read data from file
+				write data into file
+				how to  replicate file
+				
+			standard header files:
+				stdio.h
+				conio.h
+				string.h
+				winsock.h
+			library files
+				stdio.lib, conio.lib, string.lib, 
+				winsock.dll (dynamic link library)
+
+
+		C++  Programming == C language + Object Oriented Programming
+
+
+		Java Programming=
+
+
+
+Fullstack Development  :
+		UI 
+		Core
+		Data
+Development Tools, practices, processes, dos, dont
+sytax:	 		javascript, html, css, 
+libraries:		inbuilt javascript functions,jquery, react js
+platform services:	Browser (chrome, Edge, firefox, etc.)
+			localstorage, sessionstorage, indexdb
+			Websockets
+			cookies
+frameworks:		Responsive UI Framework ( bootstrap, tailwind, etc.)		
+			Angular , Vue.js
+Architecture:		Redux Architecture,
+			MVP, MVVM, MVC 
+
+
+				(Intelligence)
+				 (Core Layer)
+(UI Layer)			(Business Logic Layer)		(Data Layer)
+Presentation----		logic-----------		knowledge
+  UI components			curd				data (information)
+  Layouts			business
+  multilingual support		process				DBMS, RDBMS
+  User Input			automation			Hiearchy
+
+User Interface  Technologies
+Front End Application development
+Web application presentation (UI)
+
+HTML		:Creating web page, content to web pages (static content)
+		  audio, video, canvas, table, div
+		  (MPA): Multiple Pages application ( set of html pages)
+Javascript	: syntax, data types, JSON object
+		  function,conditional statement, looping, events,
+		  arrow function,
+		  arrays, array operations
+DHTML:		 DOM structure, (dynamic)
+		 DOM API
+		 (HTML, CSS , Javascript)
+		 Graphics programming (Canvas, SVG)
+		 			
+CSS		:Cascaded Style sheet
+		 skin for HTML page
+		 (.css file)
+React JS	:UI library for building Single Page Application (SPA) (index.html)
+		  index.html----------set of UI components
+					login, register, shoppingcart
+					routing strategy
+Native React	:Mobile APP (UI)
+Angular		:UI Framework (components, routes, directive, etc.)
+Vue.js		:UI Framework (components, routes)
+
+
+
+external api invocation
+async await
+promise
+
+
+	HTML Pages + script + DOM + Browser capabilities
+				  + access data from external world
+	
+	Web Solution:
+		User 		Inteface(url)  	--presentation	--	Web site	( Web content  html pages)
+		Programmable  	Interface(url)	---Web Services ---   			 (web content json objects)
+						 (REST API)
+						  Spring boot api using java
+						  dJango using python
+						  asp.net core using C#
+						  express JS using Node JS 
+
+
+
+											       web services
+User ------send request to web application-----------internet--------------------------------  web pages
+												Web Application
+	
+											Web Server
+url REQUEST---------->
+
+
+
+
+
+
+
+
+
+
+Distributed Computing Enviornment
+
+		-------------------------------------from remote github web api
+ Web Solution======= presentation logic -----------Core business logic
+			home.html
+			asyncfetch.html
+			button click
+			Web site (5500)		    web api  (7000)
+						    Express JS
+						    Node Js	 
+			  HTTP Live Server	    Express Server	
+			  server		    Web sever
+
+
+What is a Good Software?
+
+Good software is like a well-built tool that works reliably and efficiently. 
+It's easy to use, meets users' needs, and performs tasks accurately. 
+It’s designed to be fast, secure, and adaptable to changes. 
+Moreover, 
+it’s well-documented and maintainable, 
+making it easy for developers to fix bugs and 
+add new features as needed.
+
+Javascript : Object Oriented Programming
+	Abstration
+	Encapsulation
+	Inheritance, Polymorphism, abstract method, method overriding,interface
+	Classes :Method Overloading,constructor & destructors,member initialized list
+	Exception handling----------------------------C++, Java, Python, C# ,etc.
+	   try, catch , finally, throw
+	Metadata: Decorators(attributes)---Python
+                  (annotations)----------C++ ,Java, , C#, etc.
+
+	objects	
+	Design Patterns
+	pointers & refernces
+	--------------------------------
+	
+	templates(generic , collection)----------------------------C++, Java, 
+	delegates and events--------------------------C#
+
+Why Object Oriented Programming ?
+
+Characteristics of Good Software:
+
+1.Reusibility
+2.Simplicity
+3.Hiding complexity
+4.Precise functionality from exeuction point of view
+5.Role based controlled access
+6.Maintainability
+7.Testability
+8.consistency
+9.handling realtime entities
+10.concurrency and Synchronization
+
+
+Object Oriented Way:
+		    Natural way of thinking
+		    set of real world entities: Objects
+
+OOA : Object Oriented Analysis,-------System analyst-------gather system requirements
+OOD : Object Oriented Design,---------Software Architect---Design strcture, model, sekelton solution
+OOP:  Object Oriented Programming,-----Software Developer----
+	OOPs concepts from programming point of view
+		Source code
+		build solution
+		test solution------unit testing
+
+
+Software Testing Team------
+	 Test cases---------perform------built solution
+	
+	
+
+
+OOPs' concepts:
+
+
+use prameterized constructor
+extends
+
+Point
+	constructor
+	x, y
+	show()
+Shape
+	constructor
+	thickness, color
+	show()
+Line
+	constructor
+	statrtpoint, endpoint,
+	show()
+Rectangle
+	constructor
+	startPoint, width, height
+	show()
+Circle
+	constructor
+	center, radius
+	show()
+
+
+
+Good morning, why should you learn C programming  ? 
+The C programming language is important for several reasons:
+
+1. *Foundation of Modern Programming*: C is considered one of the most foundational programming languages. Many modern languages like C++, Java, Python, and even JavaScript have roots in C. Understanding C helps in learning these languages more easily.
+
+2. *System-Level Programming*: C is commonly used for developing system software, such as operating systems (e.g., UNIX, Linux), device drivers, and embedded systems. It allows for fine control over hardware and memory, making it ideal for such tasks.
+
+3. *Performance*: C is known for its efficiency and speed. It enables low-level access to memory, system resources, and CPU instructions, which is why it's often used in performance-critical applications.
+
+4. *Portability*: Code written in C is highly portable. With minimal modifications, C programs can be compiled on different systems, making it easier to build cross-platform applications.
+
+5. *Embedded Systems*: C is widely used in programming embedded systems, like microcontrollers and real-time systems, due to its small footprint and the ability to directly manipulate hardware.
+
+6. *Structured Language*: C promotes structured programming, which means it helps in writing clear and maintainable code using functions and control flow structures.
+
+7. *Influence on Other Languages*: Many features in C (like syntax, data types, and operators) influenced languages that came after it. Learning C gives a strong foundation for understanding how programming languages work.
+
+8. *Widely Used in Industry*: Many legacy systems, operating systems, and important software infrastructure are built with C, so knowledge of C can be important for maintaining and understanding these systems.
+
+
+Understanding const, let, and var in JavaScript
+
+JavaScript gives us three different ways to declare variables: var, let, and const. Here’s a quick breakdown of how they differ and when to use each one:
+
+1. var: 
+ - Scope: Function-scoped.
+ - Re-declaration: Allowed within the same scope.
+ - Hoisting: Variables declared with var are hoisted and initialized as undefined, which can cause unexpected behavior.
+ - Use case: Historically used in legacy code, but it's better to avoid var in modern JavaScript due to its quirks.
+ - Proper use: If you encounter var, limit its use to places where re-declaration and function-level scope are intentional. For new code, opt for let or const.
+
+2. let: 
+ - Scope: Block-scoped (confined to the nearest {} block).
+ - Re-declaration: Not allowed within the same scope.
+ - Hoisting: Variables are hoisted, but not initialized, which prevents some issues that occur with var.
+ - Use case: Use let when you expect the value of a variable to change later in the block of code.
+
+3. const: 
+ - Scope: Block-scoped.
+ - Re-declaration: Not allowed.
+ - Hoisting: Like let, hoisted but not initialized.
+ - Mutability: The variable’s value can’t be reassigned, but if it’s an object or array, its properties can still be modified.
+ - Use case: Always prefer const for values that won’t change during the script’s execution. It provides more safety in preventing accidental reassignment.
+
+TL;DR: 
+- Use const by default. 
+- Use let when you know the value will change. 
+- Avoid var unless you're dealing with older codebases that require it.
+
+
+
+
