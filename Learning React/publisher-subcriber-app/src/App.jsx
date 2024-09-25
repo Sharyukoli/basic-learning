@@ -57,9 +57,6 @@ import EventEmitter from 'eventemitter3';
 import Publisher from "./Publisher";     
 import Subscriber from "./Subscriber"; 
 
-
-
-
 function App() {
   const emitter= new EventEmitter();
   return (
