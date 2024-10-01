@@ -1,0 +1,124 @@
+React Programming :
+		syntax:  grammer---------JSX ( data binding, event binding,
+					       jsx syntax)
+					 folder Structure
+					 class component, function component
+ 
+		library: vocablury	 react, react-router-dom
+					 react-dom  node_modules
+					 reusable react hooks
+		useeffect, usestate , userParam , useNavigation ,useContext
+		useSelector, etc.
+ 
+What do you mean by a hook in react ?
+a hook is a special function that lets you “hook into” React features. 
+They allow you to use state and other React features in functional components.
+ 
+Key features of React Hooks:
+1. State Management:
+2. Life cycle methods:
+3. Reusbility
+4. No need to use Class Component in react
+ 
+ 
+const [count, setCount] = useState(0);
+ 
+useEffect(() => {
+  // Code to run on component mount or update
+}, [dependencies]);
+ 
+ 
+useContext :Accesses the context API to share data between components without prop drilling
+useReducer: Manages complex state logic, similar to Redux.
+useRef : Accesses and interacts with DOM elements or stores mutable values that don’t trigger re-renders.
+ 
+Writing Custom React hook  in application:
+ 
+  DRY: Don't repeat  Yourself  ( design principles)
+ 
+
+  useCounter.jsx  ( Custom React Hook)
+ 
+  import { useState } from 'react';
+ 
+  const  useCounter=(initialValue=0) =>{
+ 
+	const [count, setCount] = useState(initialValue);
+	const increment = () => setCount(prevCount => prevCount + 1);
+	const decrement = () => setCount(prevCount => prevCount - 1);
+  	const reset = () => setCount(initialValue);
+	return { count, increment, decrement, reset}
+ 
+  }
+  export default useCounter;
+ 
+ 
+RatingsCounter.jsx
+    import useCounter from './useCounter'; 
+   const  RatingsCounter()=>{
+	const { count, increment, decrement, reset } = useCounter(0);
+	return(
+<div>
+<h1> {count}</h1>
+<button onClick={increment}>Increment</button>
+<button onClick={reset}>Reset</button>
+<button onClick={decrement}>Decrement</button>
+</div>
+	);
+ 
+   }
+ 
+export default  RatingsCounter
+ 
+ 
+  LikesCounter.jsx:
+   import useCounter from './useCounter'; 
+   const LikesCounter=()=>{
+	const { count, increment, decrement, reset } = useCounter(0);
+	return(
+<div>
+<h1> {count}</h1>
+<button onClick={increment}>Increment</button>
+<button onClick={reset}>Reset</button>
+<button onClick={decrement}>Decrement</button>
+</div>
+	);
+ 
+   }
+ 
+export default LikesCounter;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Class Component
+Component life cycle
+Component Communication
+	event emitter
+	redux
+	context
+ 
+ 
+Advantages of Redux in React Application:
+ 
+1.Predictable State management:
+2.Centralized Store:
+3.Debugging 
+4.SOC( Separation of Concern)
+5.Middleware Support: redux-thumb
+6.Ecosystem and Community:
+7.Consistency Across Components:
+8.Scalability
+9.Immutability:
+10.Cross-Platform Compatibility:
+			Angular, React, Vue
