@@ -1,0 +1,30 @@
+1.Create Banking database.
+2.Create tables customers, accounts, operations
+	customers table
+	custid, fullname, registrationdate, balance;
+	accounts table
+	acctid, custid, accounttype (enum  current/ saving account),createdon , balance
+	operations table
+	operationid, accountid, amount, operationsdate, operationtype
+ 
+	Create table log with fields 
+		logid, timestamp, operationid, status ( completed)
+ 
+3.Create a trigger to register new customer in customers table.
+for registering customer with initial balance 15000.
+ 
+4.Create Stored procedure to deposite interest into Accounts table
+    in  accountid , interestrate
+	Check existing balance and update balance with caluclate interest based on interest set
+	 amount transfer entry to be added into operation with status "interest"
+ 
+5. Call stored procedure with accountid  and interest rate.
+ 
+Customer registration process
+ 
+	on customer insert trigger
+ 
+insert new customer details into customers
+insert new account entry into accounts table
+insert new operation entury into operations table.
+insert new  log entry into logs table

@@ -1,5 +1,5 @@
 -- create database banking;
-use banking;
+use bankings;
 create table accounts(
 	accountid int auto_increment primary key,
     holder varchar(50) not null,
@@ -8,9 +8,9 @@ create table accounts(
     
     
 insert into accounts( accountid, holder, balance) values
-(12,'Sameer', 300),
-(13,'Raj', 1500),
-(14,'Seeta', 1200);
+(16,'Sameer', 300),
+(17,'Raj', 1500),
+(18,'Seeta', 1200);
 
 create table operations(
 	operationid int auto_increment primary key,
@@ -49,4 +49,4 @@ END */
 
 -- invoking  A STORED PROCEDURE
 
-CALL spfundtransfer(13,12 ,4000);
+CALL spfundtransfer(16,12 ,3000);
