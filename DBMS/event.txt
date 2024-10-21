@@ -67,6 +67,18 @@ steps to create and shedule  a stored procedure:
 	DROP EVENT IF EXISTS my_event;
 
 
+
+
+
+
+
+
+
+
+SHOW VARIABLES LIKE 'event_scheduler';
+	SET GLOBAL event_sheduler = ON;
+
+
 	ECommerce Solution:
 	
 	 Business Scenarios and Use Cases:
