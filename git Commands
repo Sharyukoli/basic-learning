@@ -8,3 +8,6 @@ I] Git Pull //// goto that directory where you want to pull that files and cmd a
 
 Clone 
 git clone "Directory address"
+
+git reset --hard
+ 
