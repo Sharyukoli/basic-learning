@@ -1,0 +1,165 @@
+Greenhouse Automation database design: (Project)
+ 
+	-design schema, create sample data, CRUD operations
+		possible SQL Queries,
+		potential reusable stored procedures
+		triggers, events,
+		job to be sceduled
+ 
+	Steps for implementation:
+ 
+	1:Define Requirements:
+	2.Identify Entities:
+	3.Define Schema:
+	4.Implment the Database:
+	5.Populate Sample data:
+	6.Build Queries:
+	7.Role based permissions:
+	6.Monitor and Optimize:
+ 
+ 
+	1:Define Requirements:
+		Identity the key functionalities of greenhouse automation system.
+			a.Sensors: Temperature , humidity, light, soil moisture, pump status relay,etc.
+			b.Control Systems:Automated watering, heating, cooling and lighting
+			c.User Management:Admins and users , roles who can access or control system.
+			d.Data Logging: Histroical data for analysis and reporting.
+			e.Notifications and alerts: for threshold or failures.
+ 
+	2.Identify Entities:
+		Based on the requirements, identify the main entities ( tables) for database:
+		1.Users
+		2.Sensors
+		3.Sensor Reading:
+		4.Control Devices:
+		5.Control logs:
+		6.Settings:
+ 
+	3:Design the Schema createdb.sql file
+		CREATE TABLE Users (
+    				UserID INT PRIMARY KEY IDENTITY(1,1),
+				Username NVARCHAR(50) NOT NULL,
+				PasswordHash NVARCHAR(255) NOT NULL,
+    				Role NVARCHAR(20) NOT NULL, -- e.g., Admin, User
+				CreatedAt DATETIME DEFAULT GETDATE());
+		CREATE TABLE Sensors (
+    				SensorID INT PRIMARY KEY IDENTITY(1,1),
+    				SensorType NVARCHAR(50) NOT NULL, -- e.g., Temperature, Humidity
+    				Location NVARCHAR(100) NOT NULL,
+    				Description NVARCHAR(255),
+    				CreatedAt DATETIME DEFAULT GETDATE());
+ 
+ 
+		CREATE TABLE SensorReadings (
+				ReadingID INT PRIMARY KEY IDENTITY(1,1),
+    				SensorID INT FOREIGN KEY REFERENCES Sensors(SensorID),
+    				ReadingValue FLOAT NOT NULL,
+    				ReadingTime DATETIME DEFAULT GETDATE());
+ 
+ 
+		CREATE TABLE ControlDevices (
+    				DeviceID INT PRIMARY KEY IDENTITY(1,1),
+    				DeviceType NVARCHAR(50) NOT NULL, -- e.g., Water Pump, Heater
+    				Status NVARCHAR(20), -- e.g., On, Off
+    				Location NVARCHAR(100) NOT NULL,
+    				CreatedAt DATETIME DEFAULT GETDATE());
+ 
+ 
+		CREATE TABLE ControlLogs (
+    				LogID INT PRIMARY KEY IDENTITY(1,1),
+				DeviceID INT FOREIGN KEY REFERENCES ControlDevices(DeviceID),
+   				Action NVARCHAR(100), -- e.g., Started, Stopped
+    				ActionTime DATETIME DEFAULT GETDATE());
+ 
+ 
+		CREATE TABLE Settings (
+    				SettingID INT PRIMARY KEY IDENTITY(1,1),
+    				SensorType NVARCHAR(50) NOT NULL,
+    				ThresholdMin FLOAT,
+    				ThresholdMax FLOAT,
+    				NotificationEnabled BIT DEFAULT 0);
+ 
+ 
+ 
+	4.Implment the Database:
+			SSMS :
+	5.Popluate Sample Data:
+				sampledb.sql
+
+
+				CREATE DATABASE Greenhouseautomation;
+Use Greenhouseautomation;
+
+
+ 
+ 
+1. Insert Sample Data into Users Table
+ 
+INSERT INTO Users (Username, PasswordHash, Role) VALUES 
+('admin', 'hashed_password_1', 'Admin'),
+('user1', 'hashed_password_2', 'User'),
+('user2', 'hashed_password_3', 'User');
+ 
+ 
+2. Insert Sample Data into Sensors Table
+INSERT INTO Sensors (SensorType, Location, Description) VALUES 
+('Temperature', 'Greenhouse 1', 'Monitors the temperature inside the greenhouse'),
+('Humidity', 'Greenhouse 1', 'Monitors the humidity level'),
+('Soil Moisture', 'Greenhouse 1', 'Measures moisture level in the soil'),
+('Light', 'Greenhouse 1', 'Measures light intensity');
+ 
+ 
+3. Insert Sample Data into Sensor Readings Table
+INSERT INTO SensorReadings (SensorID, ReadingValue, ReadingTime) VALUES 
+(1, 22.5, GETDATE()),  -- Temperature reading
+(2, 60.0, GETDATE()),  -- Humidity reading
+(3, 30.0, GETDATE()),  -- Soil moisture reading
+(4, 500, GETDATE());    -- Light intensity reading
+ 
+ 
+4. Insert Sample Data into Control Devices Table
+INSERT INTO ControlDevices (DeviceType, Status, Location) VALUES 
+('Water Pump', 'Off', 'Greenhouse 1'),
+('Heater', 'On', 'Greenhouse 1'),
+('Fan', 'Off', 'Greenhouse 1'),
+('LED Grow Light', 'On', 'Greenhouse 1');
+ 
+ 
+6. Insert Sample Data into Settings Table
+ 
+INSERT INTO Settings (SensorType, ThresholdMin, ThresholdMax, NotificationEnabled) VALUES 
+('Temperature', 18.0, 28.0, 1),  -- Alerts if out of range
+('Humidity', 40.0, 70.0, 1),     -- Alerts if out of range
+('Soil Moisture', 20.0, 50.0, 1), -- Alerts if out of range
+('Light', 200, 800, 1);            -- Alerts if out of range
+ 
+ 
+ 
+ 
+ 
+			
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

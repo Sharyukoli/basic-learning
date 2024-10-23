@@ -1,0 +1,20 @@
+Application queries :
+ 1.Retrive all users  
+ SELECT * from users; 
+2.Retrive Sensor Information with Readings  
+ SELECT s.SensorID, s.SensorType, sr.ReadingValue, sr.ReadingTime  
+ FROM Sensors s  
+ JOIN SensorReadings sr ON s.SensorID =sr.SensorID   
+ ORDER BY sr.ReadingTime DESC;
+
+ 3.Get Recent Sensor Readings for a Specific Sensor Type 
+4.Get Control Device Status 
+5.Get Control logs for a specific Device 
+6.Find Alerts for Threshold Viloations
+ 7.Count of Sensor Readings per Sensor Types
+ 8.Get users with Admin Role.
+ 9.Get Devices that are currently On
+ 10.Recent actions taken by Control Devices 
+11.Retrieve Settings for Sensor Types.
+ 12.Average Sensor Reading for Temperature.
+ 13.Find latest Reading for each Sensor.
