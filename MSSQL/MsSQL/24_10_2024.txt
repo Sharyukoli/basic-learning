@@ -1,0 +1,37 @@
+DECLARE @i INT = 0;
+
+DECLARE @CurrentTime DATETIME = GETDATE();
+
+DECLARE @Temperature FLOAT;
+ 
+WHILE @i < 144 -- 24 hours * 6 readings per hour
+
+BEGIN
+
+    -- Generate a random temperature between 15 and 30 degrees Celsius
+
+    SET @Temperature = 15 + (RAND() * (30 - 15));
+
+    -- Insert the reading into the table
+
+    INSERT INTO TemperatureReadings (Temperature, ReadingTime)
+
+    VALUES (@Temperature, DATEADD(MINUTE, -@i * 10, @CurrentTime));
+
+    SET @i = @i + 1;
+
+END
+
+ 
+
+
+CREATE
+TABLE
+TemperatureReadings (     Id
+INT
+IDENTITY
+(1,1)
+PRIMARY
+KEY,     Temperature
+FLOAT
+, ReadingTime DATETIME );
