@@ -82,3 +82,45 @@ D:\basic learning\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\
 D:\basic learning\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.pdb
 D:\basic learning\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.genruntimeconfig.cache
 D:\basic learning\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ref\ProductApi.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\appsettings.Development.json
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\appsettings.json
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.exe
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.deps.json
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.runtimeconfig.json
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.pdb
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.csproj.AssemblyReference.cache
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.AssemblyInfoInputs.cache
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.AssemblyInfo.cs
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.csproj.CoreCompileInputs.cache
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.MvcApplicationPartsAssemblyInfo.cs
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.MvcApplicationPartsAssemblyInfo.cache
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.sourcelink.json
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets\msbuild.ProductApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets\msbuild.build.ProductApi.props
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProductApi.props
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProductApi.props
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\scopedcss\bundle\ProductApi.styles.css
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.csproj.Up2Date
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\refint\ProductApi.dll
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.pdb
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.genruntimeconfig.cache
+C:\sharyu_tap\basic-learning\Learning React\ProductApi\ProductApi\obj\Debug\net8.0\ref\ProductApi.dll

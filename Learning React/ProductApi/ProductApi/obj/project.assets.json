@@ -774,11 +774,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\basic learning\\basic-learning\\Learning React\\ProductApi\\ProductApi\\ProductApi.csproj",
+      "projectUniqueName": "C:\\sharyu_tap\\basic-learning\\Learning React\\ProductApi\\ProductApi\\ProductApi.csproj",
       "projectName": "ProductApi",
-      "projectPath": "D:\\basic learning\\basic-learning\\Learning React\\ProductApi\\ProductApi\\ProductApi.csproj",
+      "projectPath": "C:\\sharyu_tap\\basic-learning\\Learning React\\ProductApi\\ProductApi\\ProductApi.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\basic learning\\basic-learning\\Learning React\\ProductApi\\ProductApi\\obj\\",
+      "outputPath": "C:\\sharyu_tap\\basic-learning\\Learning React\\ProductApi\\ProductApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

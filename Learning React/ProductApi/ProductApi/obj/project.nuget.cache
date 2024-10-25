@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9+A5tleQVpI=",
+  "dgSpecHash": "moLbRkMoRa4=",
   "success": true,
-  "projectFilePath": "D:\\basic learning\\basic-learning\\Learning React\\ProductApi\\ProductApi\\ProductApi.csproj",
+  "projectFilePath": "C:\\sharyu_tap\\basic-learning\\Learning React\\ProductApi\\ProductApi\\ProductApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.8\\microsoft.aspnetcore.authentication.jwtbearer.8.0.8.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.5\\microsoft.aspnetcore.openapi.8.0.5.nupkg.sha512",

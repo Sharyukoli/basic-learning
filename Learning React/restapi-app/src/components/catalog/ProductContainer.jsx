@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchProducts } from '../../redux/ProductActions';
+import { fetchProducts } from '../../redux/ProductActions';    
 import { Link } from 'react-router-dom';
 
 const ProductContainer = () => {
@@ -11,7 +11,7 @@ const ProductContainer = () => {
     if (products.length === 0) {
       dispatch(fetchProducts());
     }
-  }, [dispatch, products.length]);
+  }, [dispatch, products.length]);      // react hook
 
   return (
     <div>
