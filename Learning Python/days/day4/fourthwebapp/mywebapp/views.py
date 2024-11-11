@@ -1,11 +1,6 @@
 from django.shortcuts import render
-# views.py
-from django.http import HttpResponse
 
-def home(request):
-    return HttpResponse("Hello, world of django")
-
-
+# Create your views here.
 # views.py
 from rest_framework import generics
 from .models import Item
@@ -18,5 +13,3 @@ class ItemListCreate(generics.ListCreateAPIView):
 class ItemDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Item.objects.all()
     serializer_class = ItemSerializer
-
-
