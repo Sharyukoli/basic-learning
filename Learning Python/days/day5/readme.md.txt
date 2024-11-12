@@ -1,0 +1,2 @@
+django application
+crud operations
