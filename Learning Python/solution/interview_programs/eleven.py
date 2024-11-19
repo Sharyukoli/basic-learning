@@ -73,3 +73,40 @@ print("Number of vowels:", count_vowels(string))
 lst = [1, 2, 3, 4, 5]
 lst.reverse()
 print(lst)
+Question : Remove duplicates from a list.
+# Explanation
+lst = [1, 2, 2, 3, 4, 4, 5]
+unique_lst = list(set(lst))
+print(unique_lst)
+Question : Check if a given number is prime.
+# Explanation
+def is_prime(num):
+  if num <= 1:
+    return False
+
+  for i in range(2, int(num**0.5) + 1):
+    if num % i == 0:
+      return False
+  return True
+
+num = int(input("Enter a number: "))
+if is_prime(num):
+  print("Prime")
+else:
+  print("Not prime")
+  Question : Convert a string to uppercase.
+  # Explanation
+string = "hello world"
+upper_string = string.upper()
+print(upper_string)
+Question : Calculate the area of a circle with a given radius.
+# Explanation
+import math
+radius = float(input("Enter the radius of the circle: "))
+area = math.pi * radius**2
+print("Area of the circle:", area)
+Question : Replace all occurrences of a character in a string.
+# Explanation
+string = "hello world"
+new_string = string.replace('l', 'L')
+print(new_string)
