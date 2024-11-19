@@ -60,4 +60,16 @@ if is_palindrome(string):
 else:
   print("Not a palindrome")
 
-  
+  #Question : Count the number of vowels in a given string.
+  # Explanation
+def count_vowels(s):
+  vowels = "aeiouAEIOU"
+  return sum(1 for char in s if char in vowels)
+
+string = input("Enter a string: ")
+print("Number of vowels:", count_vowels(string))
+#Question : Reverse a given list in-place.
+# Explanation
+lst = [1, 2, 3, 4, 5]
+lst.reverse()
+print(lst)
