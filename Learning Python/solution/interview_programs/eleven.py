@@ -42,4 +42,22 @@ print("Largest number:", largest)
 for i in range(2, 21, 2):
   print(i)
 
+  #Question : Calculate the sum of all numbers from 1 to a given number.
+
+# Explanation
+num = int(input("Enter a number: "))
+sum_result = sum(range(1, num + 1))
+print("Sum:", sum_result)
+
+#Question : Write a Python program to check if a given string is a palindrome.
+# Explanation
+def is_palindrome(s):
+  return s == s[::-1]
+
+string = input("Enter a string: ")
+if is_palindrome(string):
+  print("Palindrome")
+else:
+  print("Not a palindrome")
+
   
