@@ -1,0 +1,26 @@
+Key Responsibilities:
+•⁠  ⁠Develop, optimize, and maintain backend systems using Python, Django, and FastAPI.
+•⁠  ⁠Design and implement scalable architectures, including both monolithic and microservices.
+•⁠  ⁠Apply design patterns (MVC, Singleton, Observer, Factory) to solve complex problems effectively.
+•⁠  ⁠Work with web servers (Nginx, Apache) and deploy web applications and services.
+•⁠  ⁠Create and manage RESTful APIs; familiarity with GraphQL is a plus.
+•⁠  ⁠Use asynchronous programming techniques (ASGI, WSGI, async/await) to enhance performance.
+•⁠  ⁠Integrate background job processing with Celery and RabbitMQ, and manage caching mechanisms using Redis and Memcached.
+•⁠  ⁠(Optional) Develop containerized applications using Docker and orchestrate deployments with Kubernetes.
+
+Required Skills:
+•⁠  ⁠Languages & Frameworks:Python, Django, FastAPI
+•⁠  ⁠Backend Architecture & Design:Strong knowledge of monolithic and microservices architectures, design patterns, and asynchronous programming.
+•⁠  ⁠Web Servers & Deployment:Proficient in Nginx and Apache, and experience in RESTful API design and development. GraphQL experience is a plus.
+-Background Jobs & Task Queues: Proficiency in Celery and RabbitMQ, with experience in caching (Redis, Memcached).
+•⁠  ⁠Additional Qualifications:Knowledge of Docker and Kubernetes (optional), with any exposure to AI model deployment considered a bonus.
+
+Qualifications:
+•⁠  ⁠Bachelor’s degree in Computer Science, Engineering, or a related field.
+•⁠  ⁠3+ years of experience in backend development using Python and Django/FastAPI.
+•⁠  ⁠Demonstrated ability to design and implement scalable and robust architectures.
+•⁠  ⁠Strong problem-solving skills, attention to detail, and a collaborative mindset.
+
+Preferred:
+•⁠  ⁠Experience with Docker/Kubernetes for containerization and orchestration.
+•⁠  ⁠Exposure to AI model deployment processes.
