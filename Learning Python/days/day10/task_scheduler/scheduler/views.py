@@ -19,7 +19,7 @@ def schedule_task(task):
 from django.shortcuts import render
 
 from .models import Task
-from django.shortcuts import render
+
 
 def home(request):
     return render(request, 'scheduler/home.html')  # Render the home.html template
@@ -34,13 +34,19 @@ def task_list(request):
 
 
 
+from django.shortcuts import redirect, render
+
+from .forms import TaskForm
+from .models import Task
+
 
 def create_task(request):
-    if request.method == 'POST':
+    if request.method == "POST":
         form = TaskForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('task_list')
+            return redirect('task_list')  # Redirect to the task list after creating a task
     else:
         form = TaskForm()
     return render(request, 'scheduler/create_task.html', {'form': form})
+
