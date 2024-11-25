@@ -50,10 +50,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-LOGIN_REDIRECT_URL = '/'  # Redirect to the home page after login
-LOGOUT_REDIRECT_URL = '/login/'  # Redirect to the login page after logout
-
-
 ROOT_URLCONF = 'task_scheduler.urls'
 
 TEMPLATES = [
