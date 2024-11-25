@@ -5,40 +5,17 @@ from django.shortcuts import redirect, render
 from django.urls import path
 from django.utils.timezone import now
 
-from . import views  # This imports the `views.py` file from your app
+from . import views
 from .forms import TaskForm
-from .models import Task
-
-
-def schedule_task(task):
-    # Logic to execute the task (for simplicity, just marking it as executed)
-    task.is_executed = True
-    task.save()
-    print(f"Executed task: {task.name}")
-
-from django.shortcuts import render
-
 from .models import Task
 
 
 def home(request):
     return render(request, 'scheduler/home.html')  # Render the home.html template
 
-
-
 def task_list(request):
     tasks = Task.objects.all()
     return render(request, 'scheduler/task_list.html', {'tasks': tasks})
-
-
-
-
-
-from django.shortcuts import redirect, render
-
-from .forms import TaskForm
-from .models import Task
-
 
 def create_task(request):
     if request.method == "POST":
@@ -50,3 +27,8 @@ def create_task(request):
         form = TaskForm()
     return render(request, 'scheduler/create_task.html', {'form': form})
 
+def schedule_task(task):
+    # Logic to execute the task (for simplicity, just marking it as executed)
+    task.is_executed = True
+    task.save()
+    print(f"Executed task: {task.name}")
