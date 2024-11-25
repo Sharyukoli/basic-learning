@@ -50,6 +50,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',  # Default backend for user authentication
+]
+
+
 LOGIN_REDIRECT_URL = '/tasks/'  # Redirect after successful login
 LOGOUT_REDIRECT_URL = '/'  # Redirect after logout
 
