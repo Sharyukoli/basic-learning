@@ -19,6 +19,11 @@ def schedule_task(task):
 from django.shortcuts import render
 
 from .models import Task
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'scheduler/home.html')  # Render the home.html template
+
 
 
 def task_list(request):
