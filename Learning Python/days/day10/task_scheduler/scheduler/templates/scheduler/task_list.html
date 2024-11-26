@@ -20,7 +20,10 @@
                 {% for task in tasks %}
                 <tr>
                     <td>{{ forloop.counter }}</td>
-                    <td>{{ task.name }}</td>
+                    <td>
+                        <!-- Make the task name clickable -->
+                        <a href="{% url 'task_detail' task.id %}">{{ task.name }}</a>
+                    </td>
                     <td>{{ task.due_date }}</td>
                     <td>{{ task.description }}</td>
                 </tr>

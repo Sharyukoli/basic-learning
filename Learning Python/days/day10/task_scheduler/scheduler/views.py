@@ -9,6 +9,24 @@ from . import views
 from .forms import TaskForm
 from .models import Task
 
+# Sample task data
+tasks = [
+    {"id": 1, "name": "Task 1", "progress": [10, 20, 50, 70, 100]},
+    {"id": 2, "name": "Task 2", "progress": [5, 15, 25, 50, 80]},
+    {"id": 3, "name": "Task 3", "progress": [0, 30, 60, 90, 100]},
+]
+
+def task_list(request):
+    return render(request, 'task_list.html', {'tasks': tasks})
+
+def task_detail(request, task_id):
+    # Get the task by ID
+    task = next((task for task in tasks if task["id"] == task_id), None)
+    if not task:
+        return render(request, '404.html', {})  # Show a 404 page if the task is not found
+    return render(request, 'task_detail.html', {'task': task})
+
+
 
 def home(request):
     return render(request, 'scheduler/home.html')  # Render the home.html template
