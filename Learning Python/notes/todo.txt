@@ -1,0 +1,15 @@
+react
+databse 
+html
+
+
+
+
+
+1. add css ,javscript ,image in the templates folder
+2. make database connectivity with myssql. create tables
+3. restapi with crud operations.
+
+
+
+
