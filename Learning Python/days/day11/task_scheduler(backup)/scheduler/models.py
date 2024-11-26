@@ -1,5 +1,4 @@
 # Create your models here.
-# Create your models here.
 from django.db import models
 from django.utils.timezone import now
 
@@ -12,4 +11,3 @@ class Task(models.Model):
 
     def __str__(self):
         return self.name
-

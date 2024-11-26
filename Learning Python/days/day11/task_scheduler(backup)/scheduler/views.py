@@ -1,4 +1,3 @@
-# Create your views here.
 from threading import Timer
 
 # Create your views here.
