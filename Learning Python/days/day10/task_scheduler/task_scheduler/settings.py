@@ -54,6 +54,7 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',  # Default backend for user authentication
 ]
 
+# LOGIN_URL = '/login/'
 
 LOGIN_REDIRECT_URL = '/tasks/'  # Redirect after successful login
 LOGOUT_REDIRECT_URL = '/'  # Redirect after logout
@@ -63,12 +64,12 @@ ROOT_URLCONF = 'task_scheduler.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
+        'DIRS': [BASE_DIR / 'templates'],  # Include this if you have a global templates folder
+        'APP_DIRS': True,  # This ensures templates in app directories are loaded
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',
+                'django.template.context_processors.request',  # Required for `request` in templates
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
@@ -84,8 +85,15 @@ WSGI_APPLICATION = 'task_scheduler.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'task_scheduler',  # Replace with your database name
+        'USER': 'root',       # Replace with your MySQL username
+        'PASSWORD': 'password',   # Replace with your MySQL password
+        'HOST': 'localhost',           # Use '127.0.0.1' if localhost doesn't work
+        'PORT': '3306',                # Default MySQL port
     }
 }
 
