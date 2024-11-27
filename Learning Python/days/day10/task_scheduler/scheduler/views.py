@@ -50,6 +50,3 @@ def update_task_progress():
             print(f"Task {task.name} marked as completed")
 
 
-#
-#########
-######
