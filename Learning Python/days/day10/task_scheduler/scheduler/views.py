@@ -48,3 +48,6 @@ def update_task_progress():
             task.is_executed = True
             task.save()
             print(f"Task {task.name} marked as completed")
+
+
+#
