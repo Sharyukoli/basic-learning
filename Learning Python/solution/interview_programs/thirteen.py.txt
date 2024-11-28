@@ -48,5 +48,12 @@ monkey.patch = monk_p
 
 obj = monkey()
 
+
+
+
+# using with statement
+with open('myfile.txt', 'w') as file:
+    file.write('DataCamp Black Friday Sale!!!')
+
 obj.patch()
 # monk_p() is being called
