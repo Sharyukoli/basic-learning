@@ -1,0 +1,102 @@
+📂 𝗡𝗘𝗧 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗥𝗼𝗮𝗱𝗺𝗮𝗽
+ ∟📂 C#
+ └📄 Learn basics of C# 6 - 13
+ └📄 Learn .NET 8 and .NET 9
+ └📄 Learn dotnet CLI
+ ∟📂 General Development skills
+ └📄 Learn Git
+ └📄 Learn HTTP/HTTPS
+ └📄 Learn data structures and algorithms
+ └📄 Learn SOLID, YAGNI, DRY, KISS principles
+ └📄 Learn Design Patterns
+ ∟📂 ASP. NET Core
+ └📄 MVC
+ └📂 APIs
+ └📄 REST
+ └📄 GraphQL
+ └📄 gRPC
+ └📄 Web APIs
+ └📄 Minimal APIs
+ └📄 Middlewares
+ └📄 Filters & Attributes
+ └📄 Authentication & Authorisation
+ ∟📂 Client-Side .NET
+ └📄 Razor 
+ └📄 Blazor
+ └📄 .NET MAUI
+ ∟📂 Databases
+ └📄 Database design & SQL
+ └📄 Stored procedures
+ └📂 DBMS
+ └📂 Relational
+ └📄 SQL Server
+ └📄 Postrges
+ └📄 MySQL/MariaDB
+ └📂 NoSQL
+ └📄 MongoDB
+ └📄 RavenDB
+ └📄 CosmosDB
+ ∟📂 ORM
+ └📂 Entity Framework Core
+ └📄 Learn basics
+ └📄 Code first & migrations
+ └📄 Change tracker API
+ └📄 Lazy/eager loading
+ ∟📂 Caching
+ └📄 Memory Cache
+ └📄 Redis
+ └📄 Application-level
+ ∟📂 Logging
+ └📄 Serilog
+ └📄 NLog
+ ∟📂 Real-time communication
+ └📄 SignalR Core
+ └📄 Web Sockets
+ ∟📂 Background tasks
+ └📄 Native Backround Service
+ └📄 HangFire
+ └📄 Quartz
+ ∟📂 Object Mapping
+ └📄 AutoMapper
+ └📄 Mapster
+ ∟📂 Testing
+ └📂 Unit Testing
+ └📂 Frameworks
+ └📄 xUnit
+ └📄 NUnit
+ └📂 Mocking
+ └📄 NSubstitute
+ └📄 Moq
+ └📂 Assertion
+ └📄 FluentAssertions
+ └📂 Test Data Generators
+ └📄 Bogus
+ └📄 AutoFixture
+ └📂 Integration Testing
+ └📄 WebApplicationFactory
+ └📄 TestServer
+ └📂 Snapshot Testing
+ └📄 Verify
+ └📂 End-to-End Testing
+ └📄 Playwright
+ └📂 Performance Testing
+ └📄 K6
+ └📄 JMeter
+ ∟📂 Monitoring & Telemetry
+ └📄 OpenTelemetry (Jeager)
+ └📄 Prometheus
+ └📄 Grafana
+ └📄 ELK Stack
+ └📄 Datadog
+ ∟📂 Cloud
+ └📄 Azure
+ └📄 AWS
+ ∟📂 Continous integration & delivery
+ └📄 GitHub actions
+ └📄 GitLab CI
+ └📄 Azure Pipelines
+ └📄 Jenkins
+ ∟📂 .NET Libraries
+ └📄 MediatR
+ └📄 Polly 
+ └📄 FluentValidation
