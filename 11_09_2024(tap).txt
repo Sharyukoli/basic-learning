@@ -1,0 +1,76 @@
+Fullstack Development  :
+		UI 
+		Core
+		Data
+Development Tools, practices, processes, dos, dont
+sytax:	 		javascript, html, css, 
+libraries:		inbuilt javascript functions,jquery, react js
+platform services:	Browser (chrome, Edge, firefox, etc.)
+			localstorage, sessionstorage, indexdb
+			Websockets
+			cookies
+frameworks:		Responsive UI Framework ( bootstrap, tailwind, etc.)		
+			Angular , Vue.js
+Architecture:		Redux Architecture,
+			MVP, MVVM, MVC
+ 
+ 
+				(Intelligence)
+				 (Core Layer)
+(UI Layer)			(Business Logic Layer)		(Data Layer)
+Presentation----		logic-----------		knowledge
+  UI components			curd				data (information)
+  Layouts			business
+  multilingual support		process				DBMS, RDBMS
+  User Input			automation			Hiearchy
+ 
+User Interface  Technologies
+Front End Application development
+Web application presentation (UI)
+ 
+HTML		:Creating web page, content to web pages (static content)
+		  audio, video, canvas, table, div
+		  (MPA): Multiple Pages application ( set of html pages)
+Javascript	: syntax, data types, JSON object
+		  function,conditional statement, looping, events,
+		  arrow function,
+		  arrays, array operations
+DHTML:		 DOM structure, (dynamic)
+		 DOM API
+		 (HTML, CSS , Javascript)
+		 Graphics programming (Canvas, SVG)
+CSS		:Cascaded Style sheet
+		 skin for HTML page
+		 (.css file)
+React JS	:UI library for building Single Page Application (SPA) (index.html)
+		  index.html----------set of UI components
+					login, register, shoppingcart
+					routing strategy
+Native React	:Mobile APP (UI)
+Angular		:UI Framework (components, routes, directive, etc.)
+Vue.js		:UI Framework (components, routes)
+ 
+ 
+external api invocation
+async await
+promise
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+has context menu
+Compose
