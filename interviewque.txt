@@ -1,0 +1,129 @@
+
+
+ some Data Engineering interview questions that are highly relevant in the current job market.
+
+Feel free to test your skills or use these for preparation. Let’s dive in!
+
+1. SQL or Python/PySpark Scenario
+
+For each floor of each hotel in each city, calculate the incremental number of rooms occupied for each date.
+
+Details:
+
+Dataset column: Occupied_Flag (indicates if a room is occupied).
+
+Example:
+
+On 21st November, 5 rooms are occupied, and 5 are free on Floor 1.
+
+On 22nd November, 7 rooms are occupied, and 3 are free.
+
+Total rooms: 10.
+
+
+Output table requirements:
+
+1. Number of occupied rooms for each date.
+
+
+2. Incremental change in the number of occupied rooms compared to the previous date.
+
+
+3. Unoccupied rooms out of the total rooms for each date.
+
+
+4. Summary indicating occupied and unoccupied rooms (e.g., “5 - 5 rooms are not occupied out of 10”).
+
+
+The solution should be implemented using Python or Pyspark or SQL.
+
+---
+
+2. Key Differences
+
+List vs. Tuple vs. Dictionary
+
+Array vs. List
+
+Merge vs. Concatenate
+
+---
+
+3. SQL Challenges
+
+Retrieve the 3rd highest-paid employee from each department (no duplicates).
+
+---
+
+4. Change Data Capture (CDC)
+
+How many types of Slowly Changing Dimensions (SCD) exist?
+
+---
+
+5. Ranking Functions
+
+Difference between RANK, DENSE_RANK, and ROW_NUMBER.
+
+---
+
+6. Data Optimization
+
+Difference between caching and broadcasting.
+
+what is chache and Persist.
+
+---
+
+7. Pipeline Recovery
+
+Scenario: You joined a company today, and the pipeline failed.
+
+How would you restore it from the failed point?
+
+How would you ensure the pipeline starts from where it failed yesterday?
+
+---
+
+8. Spark Concepts
+
+What is the difference between the physical plan and logical plan in a Directed Acyclic Graph (DAG)?
+
+Difference between RDD and DataFrame.
+
+Explain Spark architecture.
+
+What does it mean by Columnar Storage Format?
+
+---
+
+9. Python Programming
+
+Create a function in Pandas to display the top three employee salaries and their details.
+
+Write a Python function to create an Employee class with methods to add and display employee details.
+
+Given a nested list, write a Python script to double the numbers in the list.
+
+Join two DataFrames based on the same column.
+
+---
+
+10. Data Transformations
+
+How to pivot a table.
+
+How to remove duplicates in two DataFrames.
+
+What are common data transformation operations in ETL.
+
+What tools are commonly used for ETL processes.
+
+How do you handle data quality issues in ETL.
+
+---
+
+
+Let’s keep learning and growing together! If you’d like to collaborate, discuss solutions, or share your approach to these questions, drop a comment below.
+
+hashtag#DataEngineering hashtag#InterviewPreparation hashtag#Python hashtag#SQL hashtag#PySpark hashtag#BigData hashtag#ETL
